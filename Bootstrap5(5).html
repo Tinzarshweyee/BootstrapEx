@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid mt-3">
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+           <!-- Indicator/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                class="active">
+                
+                </button>
+
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+           <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/food1.jpg" alt="Parrot" class="d-block" style="width:100%; height:400px;">
+                        <div class="carousel-caption">
+                            <h3>Love Wines</h3>
+                            <p>This is a delicious food.</p>
+                        </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="Images/food2.jpg" alt="Parrot" class="d-block" style="width:100%; height:400px;">
+                        <div class="carousel-caption" >
+                            <h3>Food is yours</h3>
+                            <p>This is a delicious food.</p>
+                        </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <img src="Images/food3.jpg" alt="Parrot" class="d-block" style="width:100%; height:400px;">
+                </div>
+
+            </div>
+
+            <!-- Left and right controls/icons -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+            data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#demo"
+            data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+
+
+    </div>
+<br><br><br><br>
+
+<!-- Modal -->
+<div class="container mt-3">
+    <h3>Modal Example</h3>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+    data-bs-target="#myModal">Open Modal
+    </button>
+</div>
+    <!-- The modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+            
+
+                <!-- MOdal body -->
+                <div class="modal-body">
+                    Modal body....
+                    
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos provident odit totam quisquam aperiam consequuntur molestiae atque similique, eius cupiditate mollitia harum ipsum vitae sapiente, quaerat pariatur id voluptas? Natus.</p>
+   
+<br><br><br>
+
+<!-- Tooltip  -->
+<div class="container-fluid mt-3">
+    <h3>Tooltip Example</h3><br>
+    <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Click OK">Hover over </button>
+</div>
+
+<br><br><br>
+
+
+    
+</body>
+</html>
